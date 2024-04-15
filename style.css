@@ -1,0 +1,25 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ball{
+    border-radius: 50%;
+    background-color: #e6fa2f;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    bottom: 0;
+    left:30px;
+}
+
+.bounce{
+    animation: anime 1s linear 1s infinite;
+}
+
+@keyframes anime {
+    50%{
+        transform: translateY(-900%);
+    }  
+}
